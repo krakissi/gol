@@ -42,7 +42,9 @@ int main(int argc, char **argv){
 	string buffer;
 	bool final = false;
 	while(!final){
-		system("clear");
+		// This is a gross trick, and I feel dirty for doing it.
+		cout << "\033[H                                          \033[H";
+
 		cout << "Generation: " << ++generation << endl;
 
 		final = b.updateBoard();
