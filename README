@@ -1,0 +1,19 @@
+Game of Life
+
+Goofy formatting hacks included for Linux terminals; bad times will be
+had on other environments.
+
+Build with make; requires a C++11 standard compiler.
+
+Execution options:
+	board
+		No arguments, auto size board and 1 second delay between
+		generations.
+
+	board <delay>
+		One argument, auto size board and $delay milliseconds between
+		generations.
+
+	board <delay> <width> <height>
+		Three arguments, $width by $height board and $delay milliseconds
+		between generations.
