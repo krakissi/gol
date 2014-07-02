@@ -1,4 +1,4 @@
-CC=g++ -std=c++11 -s
+CC=g++ -std=c++0x -s
 
 # Main source file and all the objects get combined here to produce the final binary.
 board: main.cc board.o cell.o
